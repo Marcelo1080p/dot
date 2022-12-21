@@ -12,13 +12,14 @@ body {
 #father {
   position: relative;
   background-color: #132126;
-  height: 100vh;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .childrenDot {
   position: absolute;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
   background-color: #0f0;
   transition: all .3s;
